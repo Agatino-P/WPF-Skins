@@ -1,0 +1,24 @@
+﻿<Window
+    x:Class="BlendTemplates.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:BlendTemplates"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="{DynamicResource MySkin.WindowBackground}"
+    mc:Ignorable="d">
+    <Grid>
+        <Button
+            x:Name="btnSwitch"
+            Width="100"
+            Height="50"
+            Background="{DynamicResource MySkin.Background}"
+            Click="btnSwitch_Click"
+            Foreground="{DynamicResource MySkin.Foreground}">
+            Switch
+        </Button>
+    </Grid>
+</Window>
